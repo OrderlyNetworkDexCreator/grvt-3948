@@ -1,6 +1,6 @@
 :root {
   --oui-font-family: 'Roboto', sans-serif;
-  --oui-font-size-base: 14.5px;
+  --oui-font-size-base: 15px;
 
   /* colors */
   --oui-color-primary: 154 203 97;
@@ -18,30 +18,30 @@
   --oui-color-danger: 246 78 134;
   --oui-color-danger-light: 246 78 134;
   --oui-color-danger-darken: 246 78 134;
-  --oui-color-danger-contrast: 238 255 0;
+  --oui-color-danger-contrast: 246 78 133;
 
   --oui-color-success: 154 203 98;
   --oui-color-success-light: 154 203 98;
   --oui-color-success-darken: 154 203 98;
-  --oui-color-success-contrast: 0 255 238;
+  --oui-color-success-contrast: 154 203 99;
 
   --oui-color-warning: 255 209 70;
   --oui-color-warning-light: 255 229 133;
   --oui-color-warning-darken: 255 152 0;
-  --oui-color-warning-contrast: 236 13 11;
+  --oui-color-warning-contrast: 0 0 0;
 
   --oui-color-fill: 36 32 47;
   --oui-color-fill-active: 40 46 58;
 
-  --oui-color-base-1: 93 83 123;
-  --oui-color-base-2: 81 72 107;
-  --oui-color-base-3: 68 61 69;
-  --oui-color-base-4: 57 52 74;
-  --oui-color-base-5: 51 46 66;
+  --oui-color-base-1: 64 0 255;
+  --oui-color-base-2: 68 61 70;
+  --oui-color-base-3: 68 61 71;
+  --oui-color-base-4: 68 61 71;
+  --oui-color-base-5: 68 61 71;
   --oui-color-base-6: 0 0 0;
   --oui-color-base-7: 0 0 0;
-  --oui-color-base-8: 15 15 15;
-  --oui-color-base-9: 15 15 15;
+  --oui-color-base-8: 20 20 20;
+  --oui-color-base-9: 20 20 20;
   --oui-color-base-10: 0 0 0;
 
   --oui-color-base-foreground: 255 255 255;
@@ -96,5 +96,5 @@
 
 html, body {
   font-family: 'Roboto', sans-serif !important;
-  font-size: 14.5px !important;
+  font-size: 15px !important;
 }
