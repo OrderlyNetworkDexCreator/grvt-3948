@@ -1,6 +1,6 @@
 :root {
   --oui-font-family: 'Roboto', sans-serif;
-  --oui-font-size-base: 14px;
+  --oui-font-size-base: 15px;
 
  /* =========================
    *  COLORES PRINCIPALES
@@ -123,5 +123,5 @@
 
 html, body {
   font-family: 'Roboto', sans-serif !important;
-  font-size: 14px !important;
+  font-size: 15px !important;
 }
