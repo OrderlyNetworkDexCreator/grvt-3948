@@ -1,58 +1,81 @@
 :root {
   --oui-font-family: 'Roboto', sans-serif;
-  --oui-font-size-base: 15px;
+  --oui-font-size-base: 14px;
 
-  /* colors */
-  --oui-color-primary: 154 203 97;
-  --oui-color-primary-light: 154 203 97;
-  --oui-color-primary-darken: 154 203 97;
-  --oui-color-primary-contrast: 0 0 0;
+ /* =========================
+   *  COLORES PRINCIPALES
+   * ======================= */
 
+  /* Verde principal (botones, acentos positivos) */
+  --oui-color-primary: 139 196 94;          /* #8BC45E aprox GRVT */
+  --oui-color-primary-light: 156 220 106;
+  --oui-color-primary-darken: 110 160 70;
+  --oui-color-primary-contrast: 0 0 0;      /* Texto oscuro sobre verde claro */
+
+  /* Links / morado de acento */
   --oui-color-link: 189 107 237;
   --oui-color-link-light: 217 152 250;
 
-  --oui-color-secondary: 0 0 0;
-  --oui-color-tertiary: 218 218 218;
-  --oui-color-quaternary: 218 218 218;
+  /* Texto principal y secundarios */
+  --oui-color-secondary: 255 255 255;       /* Texto principal blanco */
+  --oui-color-tertiary: 180 180 180;        /* Texto secundario gris */
+  --oui-color-quaternary: 120 120 120;      /* Texto muy tenue / hints */
 
-  --oui-color-danger: 246 78 134;
-  --oui-color-danger-light: 246 78 134;
-  --oui-color-danger-darken: 246 78 134;
-  --oui-color-danger-contrast: 246 78 133;
+  /* Errores / rojo-rosa tipo GRVT */
+  --oui-color-danger: 255 69 123;           /* #FF457B aprox velas rojas */
+  --oui-color-danger-light: 255 120 160;
+  --oui-color-danger-darken: 210 40 90;
+  --oui-color-danger-contrast: 255 255 255; /* Texto blanco sobre rosa */
 
-  --oui-color-success: 154 203 98;
-  --oui-color-success-light: 154 203 98;
-  --oui-color-success-darken: 154 203 98;
-  --oui-color-success-contrast: 154 203 99;
+  /* Éxito / PnL positivo, bids del orderbook */
+  --oui-color-success: 156 220 106;         /* Verde brillante (bids, PnL) */
+  --oui-color-success-light: 180 240 140;
+  --oui-color-success-darken: 120 180 80;
+  --oui-color-success-contrast: 0 0 0;      /* Texto oscuro sobre verde claro */
 
+  /* Warnings / amarillo (no muy usado en la screenshot pero lo dejamos limpio) */
   --oui-color-warning: 255 209 70;
   --oui-color-warning-light: 255 229 133;
   --oui-color-warning-darken: 255 152 0;
   --oui-color-warning-contrast: 0 0 0;
 
-  --oui-color-fill: 36 32 47;
-  --oui-color-fill-active: 40 46 58;
+  /* =========================
+   *  FONDOS / PANELES
+   * ======================= */
 
-  --oui-color-base-1: 68 61 71;
-  --oui-color-base-2: 68 61 70;
-  --oui-color-base-3: 68 61 71;
-  --oui-color-base-4: 68 61 71;
-  --oui-color-base-5: 68 61 71;
+  /* Fondo de paneles y secciones (casi negro) */
+  --oui-color-fill: 17 17 17;               /* #111, igual que el topbar de GRVT */
+  --oui-color-fill-active: 24 24 24;        /* Hover/activo un pelín más claro */
+
+  /* Escala de grises interna para bordes, inputs, etc. */
+  --oui-color-base-1: 30 30 30;             /* bordes suaves */
+  --oui-color-base-2: 40 40 40;
+  --oui-color-base-3: 55 55 55;
+  --oui-color-base-4: 80 80 80;
+  --oui-color-base-5: 120 120 120;
   --oui-color-base-6: 0 0 0;
   --oui-color-base-7: 0 0 0;
-  --oui-color-base-8: 20 20 20;
-  --oui-color-base-9: 20 20 20;
+  --oui-color-base-8: 15 15 15;            /* fondo general detrás de paneles */
+  --oui-color-base-9: 15 15 15;
   --oui-color-base-10: 0 0 0;
 
-  --oui-color-base-foreground: 255 255 255;
-  --oui-color-line: 255 255 255;
+  --oui-color-base-foreground: 255 255 255; /* Texto por defecto blanco */
+  --oui-color-line: 60 60 60;              /* Líneas/grids discretas, no blanco puro */
 
-  --oui-color-trading-loss: 246 78 134;
+  /* =========================
+   *  COLORES TRADING
+   * ======================= */
+
+  --oui-color-trading-loss: 255 69 123;         /* asks / velas rojas / PnL negativo */
   --oui-color-trading-loss-contrast: 255 255 255;
-  --oui-color-trading-profit: 176 232 112;
-  --oui-color-trading-profit-contrast: 255 255 255;
 
-  /* gradients */
+  --oui-color-trading-profit: 156 220 106;      /* bids / velas verdes / PnL positivo */
+  --oui-color-trading-profit-contrast: 0 0 0;
+
+  /* =========================
+   *  GRADIENTES (pueden usarse en banners, etc.)
+   * ======================= */
+
   --oui-gradient-primary-start: 40 0 97;
   --oui-gradient-primary-end: 189 107 237;
 
@@ -77,6 +100,10 @@
   --oui-gradient-neutral-start: 27 29 24;
   --oui-gradient-neutral-end: 38 41 46;
 
+  /* =========================
+   *  BORDES & SPACING
+   * ======================= */
+
   /* rounded */
   --oui-rounded-sm: 1px;
   --oui-rounded: 1px;
@@ -96,5 +123,5 @@
 
 html, body {
   font-family: 'Roboto', sans-serif !important;
-  font-size: 15px !important;
+  font-size: 14px !important;
 }
